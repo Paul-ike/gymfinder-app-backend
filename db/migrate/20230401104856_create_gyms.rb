@@ -6,7 +6,7 @@ class CreateGyms < ActiveRecord::Migration[7.0]
       t.string :location
       t.string :operatingHours
       t.integer :price
-      t.integer :contact
+      t.bigint :contact
       t.belongs_to :admin, null: false, foreign_key: true
 
       t.timestamps
