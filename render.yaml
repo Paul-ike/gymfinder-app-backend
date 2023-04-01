@@ -1,7 +1,7 @@
 databases:
   - name: gymfinder-app-backend
     databaseName: gymfinder_app_backend_production
-    user: gymfinder-app-backend
+    user: paul
 
 services:
   - type: web
