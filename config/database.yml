@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: gymfinder_app_backend_production
   username: gymfinder_app_backend
   password: <%= ENV["GYMFINDER_APP_BACKEND_DATABASE_PASSWORD"] %>
