@@ -61,4 +61,4 @@ Copyright 2023 Paul Licensed under [MT License](https://github.com/Paul-ike/gymf
 
 ## Video Link
 
-[![Watch the video](video)]()
+[![Watch the video](video)](https://drive.google.com/file/d/1iLHd7awAEpdjBYSpqtcy7aD9ig7kerkn/view)
