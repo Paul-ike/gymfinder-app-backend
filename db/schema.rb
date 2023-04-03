@@ -11,9 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_04_01_105558) do
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "admins", force: :cascade do |t|
     t.string "adminname"
     t.string "email"
@@ -29,7 +26,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_105558) do
     t.string "operatingHours"
     t.integer "price"
     t.bigint "contact"
-    t.bigint "admin_id", null: false
+    t.integer "admin_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["admin_id"], name: "index_gyms_on_admin_id"
@@ -37,7 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_01_105558) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.bigint "gym_id", null: false
+    t.integer "gym_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["gym_id"], name: "index_users_on_gym_id"
