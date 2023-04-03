@@ -19,6 +19,10 @@
     console $ rails server
     - Use Postman to view the data through routes in BDD
 
+## FrontEnd
+
+[Front-End](https://github.com/Paul-ike/gymfinder-app-frontend)
+
 ## ERD
 
 ![Screenshot](./1.png)
